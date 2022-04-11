@@ -1,0 +1,64 @@
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 1%;
+}
+.vright{
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+.right_end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+#intro{
+   display: none;
+}
+.introline h1{
+    padding-bottom: 1%;
+}
+.intro_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.items{
+    width: 100%;
+}
+.items img{
+    width: 50%;
+    height: inherit;
+}
+.item1 img{
+    height: 60%;
+}
+.owner img,.owner1 img{
+    width: 35%;
+}
+.forlap{
+    display: none;
+}
+.forphone{
+display: block;
+}
+.left_foot{
+    display: none;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.right_foot{
+    text-align: center;
+    padding: 2% 0%;
+}
+.social{
+    display: flex;
+}

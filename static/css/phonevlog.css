@@ -1,0 +1,24 @@
+.left_foot{
+    display: none;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner1{
+    display: none;
+}
+.inner{
+    width: 90%;
+}
+.fa{
+    font-size: 20px;
+}
+a{
+    font-size: inherit;
+}

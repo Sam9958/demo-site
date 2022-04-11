@@ -1,0 +1,16 @@
+{
+  "name": "suggest_me",
+  "version": "1.0.0",
+  "description": "suggest people to buy the items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumit kumars singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "pug": "^3.0.2"
+  }
+}

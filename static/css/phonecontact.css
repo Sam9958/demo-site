@@ -1,0 +1,44 @@
+
+h1{
+    padding: 4% 0%;
+}
+.burger{
+    display: block;
+}
+.left_foot{
+    text-align: center;
+    padding: 2% 0%;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+   
+}
+.nav{
+   background:  #e1fafe;
+}
+.right_foot{
+    text-align: center;
+    padding: 2% 0%;
+}
+.fa{
+    margin: 5px 1px;
+}
+.right_end{
+    flex-direction: column;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    
+    /* justify-content: flex-end; */
+}
+a{
+    color: black;
+}
+.vright{
+   opacity: 0;
+   /* height: 10px; */
+transition: 1s ease-in;
+background-color: black;
+color: white;
+    
+}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.burger{
+   /* border: 2px solid black; */
+   width:30px;
+   position: absolute;
+   top: 2px;
+   left: 6px;
+   display: none;
+}
+.line{
+    border: 2px solid white;
+    margin-top: 4px;
+}
+
+.nav{
+    background: rgb(0, 0, 0,0.7) url(../pics/intro.jpg) center center no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    z-index: -50;
+    background-size: cover;
+    /* border: 2px solid black; */
+    background-blend-mode: color;
+    font-family: "Viaoda libre",cursive;
+}
+.right_end{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
+.right_end li{
+    padding: 1% 2%;
+    text-decoration: none;
+    }
+ a{
+    color: white;
+    text-decoration: none;
+    }
+li a:hover{
+    opacity: 0.7;
+    }
+.channel_button{
+    width: fit-content;
+    padding: 1%;
+    font-family: "Viaoda libre",cursive;
+    background: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    font-size: large;
+    cursor: pointer;
+}
+.channel_button:hover{
+opacity: 0.7;
+width: 18%;
+}
+.introline{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto 0%;
+   color: white;
+}
+#intro {
+    /* width: fit-content; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: introline 5.5s steps(40, end),blink-caret 1s step-end infinite;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+@keyframes introline {
+    from { width: 0 }
+  to { width: 62% }
+  }
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.intro_section{
+display: flex;
+justify-content: space-around;
+color: black;
+background:aliceblue;
+}
+.items{
+    margin: 2%;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.items img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+    border: 2px solid steelblue;
+
+}
+.button1 a{
+    color: black;
+}
+.button1:hover{
+    opacity: 0.8;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: black;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.owner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0%;
+    /* flex-direction: column; */
+}
+.owner1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8% 0%;
+    flex-direction: row-reverse;
+    /* flex-direction: column; */
+}
+.owner img,.owner1 img{
+    width: 17%;
+    /* height: 250px; */
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.content{
+    padding: 2%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Viaoda libre",cursive;
+}
+.foot{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #1b1922;
+    color: white;
+    font-family: "Viaoda libre",cursive;
+}
+.left_foot{
+/* border: 2px solid grey; */
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+
+}
+.mid_foot{
+/* border: 2px solid rgb(54, 207, 100); */
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+}
+ .right_foot {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.leftinner{
+    padding: 3%;
+}
+.fa {  
+    padding: 8px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 28px;
+    width: 51px;
+    border-radius: 25px;
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa:hover {  
+    opacity: 0.8;  
+}  
+.forphone{
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
+}
+    

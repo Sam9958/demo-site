@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    /* border: 2px solid blue; */
+    background: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.inner{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: max-content;
+}
+.first{
+    text-align: center;
+    font-family: "Viaoda libre",cursive;
+}
+.right_end{
+    background: black;
+    padding: 5% 0%
+}
+a{
+    /* font-size: inherit; */
+    font-size: larger;
+}
+.first h1{
+    background: #e6edf3;
+    padding: 2%;
+}
